@@ -1,0 +1,209 @@
+/*.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+.container1 {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+header {
+	background-color: #E0E5E1;
+	padding: 50px;
+	height:40px;
+}
+
+header h1 {
+	font-size: 36px;
+	font-weight: bold;
+	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #333;
+	font-size: 20px;
+}
+
+nav a:hover {
+	color: #666;
+}
+img {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+input[type="number"] {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+button[type="submit"] {
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  background-color: #fc8019;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+  margin-top:10%;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+}*/
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  color: black; /* Chick-fil-A red */
+}
+
+.container1 {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+header {
+	background-color: #FF0000; /* Chick-fil-A red */
+	padding: 50px;
+	height: 40px;
+}
+
+header h1 {
+	font-size: 36px;
+	font-weight: bold;
+	float: left;
+	color: #fff; /* Chick-fil-A red */
+}
+
+nav {
+	float: right;
+	margin-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+  
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+nav a:hover {
+	color: #666;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: black; /* Chick-fil-A red */
+}
+
+input[type="number"] {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+button[type="submit"] {
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  background-color: #FFD700; /* Chick-fil-A yellow */
+  color: #333; /* Darker text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+	background-color: #FFEB99; /* Light yellow */
+	color: #333;
+	padding: 10px;
+	text-align: center;
+  margin-top: 10%;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+}
