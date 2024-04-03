@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cick-fil-A Cart</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<header>
+		<div class="container1">
+			<h1>Chick-fil-A</h1>
+			<nav>
+				<ul>
+					<li><a href="dashboard.html">Home</a></li>
+					<li><a href="#">Orders</a></li>
+					<li><a href="index.html">Account</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section >
+		<div class="container">
+			<h2>Menu Item</h2>
+			<img src="meal.jpg" alt="Menu Item Image"><br>
+			<label for="quantity">Quantity:</label>
+			<input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+			<h2>$13.99</h2>
+			
+			<button type="submit">Add to Bag</button>
+			<button type="submit" onclick="redirectToNewPage()">Place your Order</button>
+
+		  </div>
+	</section>
+	
+    <script>
+		function redirectToNewPage() {
+			window.location.href = "SuccessOrder.html"; // replace "newpage.html" with the URL of the new page
+		}
+	</script>
+</body>
+</html>

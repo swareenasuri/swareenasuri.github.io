@@ -1,0 +1,347 @@
+/*body {
+	background-color: #F5F5F5;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #C0C0C0;
+	margin: 100px auto;
+	padding: 20px;
+	width: 400px;
+}
+
+
+h1 {
+	color: #333333;
+	font-size: 28px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	color: #666666;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+	background-color: #F7F7F7;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+input[type="submit"] {
+	background-color: #333333;
+	border: none;
+	border-radius: 5px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 18px;
+	height: 50px;
+	margin-top: 10px;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #E0E5E1;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img {
+	height: 90px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.search input {
+	border: none;
+	border-radius: 20px;
+}
+
+nav {
+color:#000;
+font-size:30px;
+}
+
+button {
+	border-radius: 20px;
+  font-size: 20px;
+}
+
+.btnCenter {
+  display: block;
+  margin: 200px auto 0;
+  	position: absolute;
+	left: 48%;
+  border-radius: 0;
+}
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: -20px;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  padding: 0 20px;
+  font-size: 16px;
+  outline: none;
+  text-align: center;
+}
+
+.search-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+}
+
+.search-btn i {
+  font-size: 20px;
+}
+.btnSmallfont{
+  font-size: 12px;
+}
+.bg-image {
+  background-image: url("bdc.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.bg-color{
+  background-color: #37474F;
+
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+    margin-top:15%;
+
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+}*/
+
+
+
+body {
+    background-color: #FFF7E6; /* Light yellow similar to Chick-fil-A's branding */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    padding: 40px;
+    width: 400px;
+    background-color: #FFF; /* White background */
+}
+
+h1 {
+    color: #FF0000; /* Chick-fil-A red */
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #FAFAFA; /* Light gray */
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: #FF0000; /* Chick-fil-A red */
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #CC0000; /* Darker red on hover */
+}
+
+header {
+    background-color: #FF0000; /* Chick-fil-A red */
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    height: 90px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.search input {
+    border: none;
+    border-radius: 20px;
+}
+
+button {
+    border-radius: 20px;
+    font-size: 20px;
+	
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.btnCenter {
+    display: block;
+    margin: 20px auto 0;
+    border-radius: 0;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.search-box input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    border: 2px solid #FFD700; /* Chick-fil-A yellow */
+    border-radius: 25px;
+    padding: 0 20px;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+}
+
+.search-btn {
+    background-color: #FFD700; /* Chick-fil-A yellow */
+    border: none;
+    cursor: pointer;
+    padding: 0 30px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid #FFD700; /* Chick-fil-A yellow */
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #F0C200; /* Darker yellow on hover */
+}
+
+.search-btn i {
+    font-size: 20px;
+}
+
+.btnSmallfont {
+    font-size: 12px;
+}
+
+.bg-image {
+    background-image: url("https://example.com/chickfila-bg.jpg"); /* Replace with your preferred background image */
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.bg-color {
+    background-color: #FFF;
+}
+
+footer {
+    background-color: #FF0000; /* Chick-fil-A red */
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}

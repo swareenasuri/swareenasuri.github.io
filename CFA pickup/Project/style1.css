@@ -1,0 +1,253 @@
+/* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F6F7F6;
+	color: #333;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+header {
+	background-color: #E0E5E1;
+	padding: 50px;
+	height:134px;
+}
+
+header h1 {
+	font-size: 36px;
+	font-weight: bold;
+	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #333;
+	font-size: 20px;
+}
+
+nav a:hover {
+	color: #666;
+}
+
+.order-items {
+	padding: 50px 0;
+}
+
+.order-items h2 {
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+
+.item {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.item img {
+	margin-right: 20px;
+
+        width: 185px;
+        height: 123px;
+      
+}
+
+.item-info h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.item-info p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.add-to-cart button {
+	background-color: #E0E5E1;
+	color: #333;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.add-to-cart button:hover {
+	background-color: #333;
+	color: #FFF;
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+    margin-top:0%;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+}*/
+
+
+
+* /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #FFF7E6; /* Chick-fil-A light yellow */
+    color: #333;
+}
+
+
+/* Container */
+.container {
+	
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #FF0000; /* Chick-fil-A red */
+    padding: 50px;
+    height: 134px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    float: left;
+    color: #FFF; /* White text */
+}
+
+/* Navigation */
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+	
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF; /* White text */
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FFD700; /* Chick-fil-A yellow on hover */
+}
+
+/* Order Items */
+.order-items {
+    padding: 50px 0;
+}
+
+.order-items h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #FF0000; /* Chick-fil-A red */
+    font-weight: bold;
+}
+
+/* Item */
+.item {
+    display: flex;
+	background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.item img {
+    margin-right: 20px;
+    width: 185px;
+    height: 123px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-info h3 {
+	display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black; /* Chick-fil-A red */
+}
+
+.item-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Add to Cart Button */
+.add-to-bag button { 
+	margin-left: 500px;
+	margin-top: 40px;
+    background-color: #FFD700; /* Chick-fil-A yellow */
+    color: #333; /* Darker text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-bag button:hover {
+    background-color: #F0C200; /* Darker yellow on hover */
+    color: #FFF; /* White text on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px; /* Adjusted margin */
+    border-top: 1px solid #666; /* Darker border on top */
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}

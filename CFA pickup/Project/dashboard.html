@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chick-fil-a Home Page</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Chick-fil-A</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Orders</a></li>
+					<li><a href="index.html">Account</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="Menu">
+		<div class="container">
+			<h2>Menu</h2>
+			<div class="item">
+				<img src="meal.jpg" alt="Item Image">
+				<div class="item-info">
+					<h3>Meal</h3>
+					<p>$13.99</p>
+				</div>
+				<div class="add-to-bag">
+					<button onclick="redirectToNewPage()">Add to Bag</button>
+				</div>
+			</div>
+			<div class="item">
+				<img src="salads.jpg" alt="Item Image">
+				<div class="item-info">
+					<h3>Salads</h3>
+				    <p>$10.99</p>
+				</div>
+				<div class="add-to-bag">
+					<button onclick="redirectToNewPage()">Add to Bag</button>
+				</div>
+			</div>
+            <div class="item">
+				<img src="treats.jpg" alt="Item Image">
+				<div class="item-info">
+					<h3>Treats</h3>
+					<p>$4.99</p>
+				</div>
+				<div class="add-to-bag">
+					<button onclick="redirectToNewPage()">Add to Bag</button>
+				</div>
+			</div>
+			<!-- more items here -->
+		</div>
+	</section>
+    
+    <script>
+		function redirectToNewPage() {
+			window.location.href = "addCart.html"; // replace "newpage.html" with the URL of the new page
+		}
+	</script>
+</body>
+</html>

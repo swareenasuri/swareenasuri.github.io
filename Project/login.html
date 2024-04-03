@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Chick-fil-a Home Page</title>
+	<link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="cfa.png" alt="Grubhub Logo">
+		</div>
+		<!-- <div class="container1">
+			<h1>BDC Pickup.com</h1>
+			
+		</div> -->
+		<nav>
+			<!-- <ul>
+				<li><a href="#">Restaurants</a></li>
+				<li><a href="#">My Eats</a></li>
+				<li><a href="#">Help</a></li>
+			</ul> -->
+            Chick-fil-a.com
+		</nav>
+	</header>
+	<div class="container">
+		<h1>Login</h1>
+		<form>
+			<label for="MIDAS ID">Username</label>
+			<input type="text" id="MIDAS ID" name="MIDAS ID" placeholder="Enter MIDAS ID" required>
+			<label for="Password">Password</label>
+			<input type="Password" id="Password" name="Password" placeholder="Enter Password" required>
+			<div class="button-container">
+				<input type="button" value="Login" onclick="redirectToNewPage()">
+				<input type="button" value="Forgot Password">
+			</div>
+		</form>
+	</div>
+	
+	
+	<script>
+		function redirectToNewPage() {
+			window.location.href = "dashboard.html"; // replace "newpage.html" with the URL of the new page
+		}
+	</script>
+</body>
+</html>
